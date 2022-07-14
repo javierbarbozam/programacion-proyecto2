@@ -5,18 +5,10 @@ let n2 = parseInt(prompt2)
 
 
 while(n1 > n2){
-	let sumatoria = n2 + 1
-	document.write(sumatoria)
+	n2 = n2+1
+	document.write(n2)
 }
-
-
-
-/*
-
-contador = 0
-while(contador <=10){
-	console.log("Ejecución" , contador)
-	contador ++;
+while(n1 < n2){
+	n1 = n1+1
+	document.write(n1)
 }
-
-*/
