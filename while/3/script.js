@@ -1,13 +1,10 @@
-let prompt1 = prompt ("Inserte un número")
-let n1 = parseInt(prompt1)
-let resultado = 0
-let i = 0
+let sumatoria = 0
 
-while(n1 > 1){
-	if (n1 % 2 == 0){
-		resultado = n1 / 2
-	} else {
-		resultado = (n1 * 3) + 1 
+while(true){
+	let prompt1 = Number(prompt ("Inserte un número"))
+	sumatoria = sumatoria+1
+	if (prompt1 == 0){
+		break;
 	}
 }
-document.write(sumatoria)
+document.write("El total de números ingresados fue: "+sumatoria)
