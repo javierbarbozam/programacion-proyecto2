@@ -1,13 +1,8 @@
-let digito = Number(prompt("Digite un número"));
+let numero = Number(prompt("Digite un número del 1 al 10"))
+let resultado=0
 
-while (digito > 1) {
-  if (digito % 2 == 0) {
-    digito = digito / 2;
-    document.write(digito);
-    document.write("</br>");
-  } else {
-    digito = digito * 3 + 1;
-    document.write(digito);
-    document.write("</br>");
-  }
+for (let i = 1; i <=10; i++){
+	resultado= i*numero
+	document.write(resultado)
+	document.write("<br>")
 }
