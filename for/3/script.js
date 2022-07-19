@@ -1,4 +1,13 @@
-let lista = [12,75,150,180,145,525,50]
+let lista = [1]
+
+while(true){
+	var numero = prompt("Digite un número");
+	lista.push(numero)
+	var fin= prompt ("¿Desea finalizar el ciclo?")
+	if (fin == "si"){
+		break;
+	}
+}
 
 for (let i = 0; i < lista.length; i++){
 	if(lista[i] % 5 == 0 && lista[i] < 150){
